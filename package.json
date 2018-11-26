@@ -1,10 +1,11 @@
 {
-  "name": "git-change-profile",
+  "name": "change-git-config",
   "version": "0.1.0",
-  "description": "Rewrite your git profile in existing repositories' history",
+  "description": "Rewrite your git config in existing repositories' history",
   "keywords": [
     "git",
     "profile",
+    "config",
     "name",
     "email",
     "repository",
@@ -14,7 +15,7 @@
     "committer"
   ],
   "main": "index.js",
-  "repository": "JaneJeon/Git-Change-Profile",
+  "repository": "JaneJeon/Change-Git-Profile",
   "author": "Jane Jeon <JaneJeon9719@gmail.com>",
   "license": "MIT",
   "private": false,

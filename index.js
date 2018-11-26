@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const { Input, Dir, Profile } = require("./lib")
+const { Input, Dir, Config, Repo } = require("./lib")
 
 const run = async () => {
-  const config = await Profile.default()
+  const config = await Config.default()
   const input = await Input.read(config)
 
   const repos = await Dir.getRepos(input.dir)
@@ -11,7 +11,9 @@ const run = async () => {
     process.exit(1)
   }
 
-  console.log(repos)
+  for (const repo in repos) {
+    //
+  }
 }
 
 run()
