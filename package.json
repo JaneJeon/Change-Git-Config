@@ -1,0 +1,35 @@
+{
+  "name": "git-change-profile",
+  "version": "0.1.0",
+  "description": "Rewrite your git profile in existing repositories' history",
+  "keywords": [
+    "git",
+    "profile",
+    "name",
+    "email",
+    "repository",
+    "remote",
+    "history",
+    "author",
+    "committer"
+  ],
+  "main": "index.js",
+  "repository": "JaneJeon/Git-Change-Profile",
+  "author": "Jane Jeon <JaneJeon9719@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "parse-git-config": "^3.0.0",
+    "simple-git": "^1.107.0",
+    "untildify": "^3.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
