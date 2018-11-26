@@ -17,7 +17,7 @@
   "repository": "JaneJeon/Git-Change-Profile",
   "author": "Jane Jeon <JaneJeon9719@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "dotenv": "^6.1.0",
     "enquirer": "^2.0.7",
