@@ -3,11 +3,8 @@ Did you change your email address? Got a new name? You can change those outdated
 your repos at once, *and* make the remote repositories (e.g. GitHub) reflect those changes!
 
 ## Installation
-```bash
-npm install -g change-git-config
-# or
-yarn global add change-git-config
-```
+Clone this repository.
+TODO: make a global command file
 
 ## Usage
 1. Run `yarn start`
