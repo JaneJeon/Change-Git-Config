@@ -4,7 +4,6 @@ your repos at once, *and* make the remote repositories (e.g. GitHub) reflect tho
 
 ## Installation
 Clone this repository.
-TODO: make a global command file
 
 ## Usage
 1. Run `yarn start`

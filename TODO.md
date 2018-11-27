@@ -1,0 +1,2 @@
+- [ ] make a global command (`/bin`) so that users can just `yarn add global`
+- [ ] only push when there's changes!
