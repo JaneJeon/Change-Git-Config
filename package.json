@@ -1,6 +1,6 @@
 {
   "name": "change-git-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Rewrite your git config in existing repositories' history",
   "keywords": [
     "git",
@@ -20,6 +20,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "debug": "^4.1.0",
     "dotenv": "^6.1.0",
     "enquirer": "^2.0.7",
     "simple-git": "^1.107.0",
@@ -29,7 +30,9 @@
     "prettier": "^1.15.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "DEBUG=git-config:repo:* node index.js",
+    "setup": "bash scripts/setup.sh",
+    "teardown": "bash scripts/teardown.sh"
   },
   "prettier": {
     "semi": false
