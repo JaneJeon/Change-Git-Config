@@ -1,6 +1,6 @@
 {
   "name": "change-git-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rewrite your git config in existing repositories' history",
   "keywords": [
     "git",
