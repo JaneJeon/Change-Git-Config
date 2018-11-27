@@ -2,6 +2,8 @@
 Did you change your email address? Got a new name? You can change those outdated git configurations across *all* of 
 your repos at once, *and* make the remote repositories (e.g. GitHub) reflect those changes!
 
+This is an upgrade over the [previous PHP-based solution](https://github.com/JaneJeon/Change-Git-Name) in that a. it doesn't mess up your commit history (uses `git stash` instead), b. it pushes across *all* branches (unlike before, which only pushed `master`), and c. the logging is less cluttered and easier to pinpoint what went wrong where (especially during force pushes).
+
 ## Installation
 Clone this repository.
 
