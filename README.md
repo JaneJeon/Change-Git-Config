@@ -2,14 +2,21 @@
 Did you change your email address? Got a new name? You can change those outdated git configurations across *all* of 
 your repos at once, *and* make the remote repositories (e.g. GitHub) reflect those changes!
 
+## Installation
+```bash
+npm install -g change-git-config
+# or
+yarn global add change-git-config
+```
+
 ## Usage
-- Run `yarn start`
-- Specify a directory. Anything from `~/Projects`, `/Users/home/$project`, to `./blah` flies!
-- Provide the outdated git information you'd like to update (i.e. your previous git config)
-- Check that the new git information looks right
-- (Optional) enable force push
-- ???
-- Profit!
+1. Run `yarn start`
+2. Specify a directory. Anything from `~/Projects`, `/Users/home/$project`, to `./blah` flies!
+3. Provide the outdated git information you'd like to update (i.e. your previous git config)
+4. Check that the new git information looks right
+5. (Optional) enable force push
+6. ???
+7. Profit!
 
 ## Warning
 Only enable force push with repos that you own or repos where you know the others will be okay with this change!
