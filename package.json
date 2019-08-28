@@ -1,6 +1,6 @@
 {
   "name": "change-git-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rewrite your git config in existing repositories' history",
   "keywords": [
     "git",
@@ -15,7 +15,7 @@
     "committer"
   ],
   "main": "index.js",
-  "repository": "JaneJeon/Change-Git-Profile",
+  "repository": "JaneJeon/Change-Git-Config",
   "author": "Jane Jeon <JaneJeon9719@gmail.com>",
   "license": "MIT",
   "private": false,

@@ -32,17 +32,16 @@ Additionally, the git configurations are case-sensitive, meaning that `hello@exa
 look the same to `git`.
 
 ## Testing
-You can do a simple integration test (unfortunately interactive in some parts, but a lot of it is still automated) as
- follows:
- - `yarn setup`
-    - Provide your GitHub credentials, and modify `scripts/setup.sh` with your GitHub username
- - `yarn start`:
-    - Use the following credentials:
-        - dir: `./sample`
-        - old name: your current git name
-        - old email: your current git email
-        - new name: something *different* from your current git name
-        - new email: something *different* from your current git email
-    - Afterwards, you should see the changes reflected on the github repo
- - `yarn teardown`
-    - Provide your GitHub credentials, and modify `scripts/teardown.sh` with your GitHub username
+You can do a simple integration test (unfortunately interactive in some parts, but a lot of it is still automated) as follows:
+   - `yarn setup`
+      - Provide your GitHub credentials, and modify `scripts/setup.sh` with your GitHub username
+   - `yarn start`:
+      - Use the following credentials:
+         - dir: `./sample`
+         - old name: your current git name
+         - old email: your current git email
+         - new name: something *different* from your current git name
+         - new email: something *different* from your current git email
+      - Afterwards, you should see the changes reflected on the github repo
+   - `yarn teardown`
+      - Provide your GitHub credentials, and modify `scripts/teardown.sh` with your GitHub username
