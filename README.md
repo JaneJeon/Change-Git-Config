@@ -1,4 +1,7 @@
-# Change Git Config [![npm version](https://badge.fury.io/js/change-git-config.svg)](https://badge.fury.io/js/change-git-config)
+# Change Git Config
+
+[![npm version](https://badge.fury.io/js/change-git-config.svg)](https://badge.fury.io/js/change-git-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=JaneJeon/Change-Git-Config)](https://dependabot.com)
+
 Did you change your email address? Got a new name? You can change those outdated git configurations across *all* of 
 your repos at once, *and* make the remote repositories (e.g. GitHub) reflect those changes!
 
