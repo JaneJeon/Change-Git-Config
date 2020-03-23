@@ -27,7 +27,7 @@
     "untildify": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.15.2"
+    "prettier": "^2.0.1"
   },
   "scripts": {
     "start": "DEBUG=git-config:repo:* node index.js",
