@@ -27,14 +27,16 @@
     "untildify": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.15.2"
+    "@janejeon/prettier-config": "^1.0.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
   },
+  "prettier": "@janejeon/prettier-config",
   "scripts": {
     "start": "DEBUG=git-config:repo:* node index.js",
     "setup": "bash scripts/setup.sh",
-    "teardown": "bash scripts/teardown.sh"
-  },
-  "prettier": {
-    "semi": false
+    "teardown": "bash scripts/teardown.sh",
+    "lint": "prettier --check ."
   }
 }
